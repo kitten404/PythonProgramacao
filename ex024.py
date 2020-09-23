@@ -1,0 +1,5 @@
+cidade = input('informe a cidade: ')
+cidade = cidade.lower()
+cidade = cidade.capitalize()
+cidade = cidade.split()
+print(cidade[0] in 'Santo')

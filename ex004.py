@@ -1,0 +1,5 @@
+data = input('digite um valor:')
+print('a variavel é do tipo', type(data))
+print(data.isalnum())
+print(data.isdecimal())
+print(data.isnumeric())
