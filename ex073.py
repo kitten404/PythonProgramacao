@@ -1,0 +1,5 @@
+times = ('Corinthians','Palmeiras','Santos','Grêmio','Cruzeiro')
+print('Os cinco primeiros sao: ', times[0:6])
+print('os ultimos 4 são: ', times[-4:])
+print('em ordem: ', sorted(times))
+print('está em ',times.index('Palmeiras'))
